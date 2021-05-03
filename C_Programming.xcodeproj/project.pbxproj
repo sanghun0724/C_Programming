@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B662A638263EDF88003B74F9 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = B662A637263EDF88003B74F9 /* pointer.c */; };
+		B662A63C263FAADA003B74F9 /* func.c in Sources */ = {isa = PBXBuildFile; fileRef = B662A63B263FAADA003B74F9 /* func.c */; };
+		B662A63F263FAE7F003B74F9 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = B662A63E263FAE7F003B74F9 /* malloc.c */; };
+		B662A642263FB285003B74F9 /* arr.c in Sources */ = {isa = PBXBuildFile; fileRef = B662A641263FB285003B74F9 /* arr.c */; };
 		B6917FBB263D558300A6AE21 /* typedef.c in Sources */ = {isa = PBXBuildFile; fileRef = B6917FBA263D558300A6AE21 /* typedef.c */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		B662A637263EDF88003B74F9 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
+		B662A63B263FAADA003B74F9 /* func.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = func.c; sourceTree = "<group>"; };
+		B662A63E263FAE7F003B74F9 /* malloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
+		B662A641263FB285003B74F9 /* arr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arr.c; sourceTree = "<group>"; };
 		B6917FB7263D558300A6AE21 /* C_Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Programming; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6917FBA263D558300A6AE21 /* typedef.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = typedef.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +67,9 @@
 			children = (
 				B6917FBA263D558300A6AE21 /* typedef.c */,
 				B662A637263EDF88003B74F9 /* pointer.c */,
+				B662A63B263FAADA003B74F9 /* func.c */,
+				B662A63E263FAE7F003B74F9 /* malloc.c */,
+				B662A641263FB285003B74F9 /* arr.c */,
 			);
 			path = C_Programming;
 			sourceTree = "<group>";
@@ -121,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B662A63C263FAADA003B74F9 /* func.c in Sources */,
+				B662A63F263FAE7F003B74F9 /* malloc.c in Sources */,
 				B6917FBB263D558300A6AE21 /* typedef.c in Sources */,
+				B662A642263FB285003B74F9 /* arr.c in Sources */,
 				B662A638263EDF88003B74F9 /* pointer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
